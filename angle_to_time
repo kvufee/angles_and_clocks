@@ -1,0 +1,11 @@
+def transformer(degree):
+    if degree%30 == 0:
+        hours = degree//30
+        minutes = 0
+        seconds = 0
+    else: 
+        hours = degree//30
+        minutes = 2 * degree % 60
+        seconds = degree * 120 % 60
+        
+    print(hours, minutes, seconds)
