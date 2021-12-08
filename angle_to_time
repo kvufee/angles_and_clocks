@@ -9,3 +9,5 @@ def transformer(degree):
         seconds = degree * 120 % 60
         
     print(hours, minutes, seconds)
+
+transformer(90.375)
