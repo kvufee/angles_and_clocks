@@ -1,0 +1,5 @@
+def hour_arrow_angle(hours, minutes, seconds):
+    hours = (0.5*minutes + 0.0083*seconds) + hours*360/12
+    return hours
+    
+hour_arrow_angle(1, 2, 3)
